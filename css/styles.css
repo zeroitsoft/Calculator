@@ -1,0 +1,44 @@
+
+.calculator{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border:1px solid gray;
+}
+
+.content:not(:last-child){
+    border-right: 1px solid gray;  
+}
+
+.value-rows:not(:last-child){
+    border-bottom: 1px solid gray;
+}
+
+p{
+    font-size: 5rem;
+    padding:0;
+    margin:0;
+}
+
+.row-1{
+    background-color: #848695;
+}
+
+.row-1 p{
+    color:#FFF;
+}
+
+.first-col, .second-col, .third-col{
+    background-color: #E0E0E0;
+    
+}
+
+.fourth-col{
+    background-color: #F5923D;
+    color: #FFF;
+}
+
+.values{
+    font-size: 3.8rem;
+}
